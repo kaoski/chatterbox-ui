@@ -1,0 +1,19 @@
+#chat-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+    border-right: 1px #888 solid;
+    overflow: auto;
+}
+
+#chat-list-container input{
+    width: 80%;
+    padding: 0.5rem 0;
+    margin: 1rem 1rem;
+    border: 1px solid #333;
+}
+
+#chat-list {
+    list-style: none;
+}

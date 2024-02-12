@@ -1,0 +1,32 @@
+.chat-view {
+    display: flex;
+    width: 100%;
+}
+
+.chat-mini-detail {
+    border-bottom: 1px solid #888;
+    max-width: 80%;
+    padding: 1rem;
+}
+.chat-mini-detail span {
+    font-size: 1.2rem;
+}
+
+.chat-mini-detail p {
+    text-align: left;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.chat-view img {
+    object-position: center;
+    object-fit: cover;
+    max-width: 10%;
+    max-height:10%;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
